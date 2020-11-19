@@ -1,0 +1,230 @@
+% Resume in Latex
+% Author : Tuan Nguyen
+% 22 May 2019 
+% License : MIT-style
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{bibentry}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\setlength{\parskip}{-0.3em}
+\renewcommand{\baselinestretch}{0.8}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+%\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{0pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeRef}[2]{
+  \item\small{
+    \textbf{#1} {#2}}
+  }
+
+\newcommand{\resumeBlack}[1]{\item\small{{#1}}}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%% The CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%-----GENERAL INFOS------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://drkangabu.netlify.app/}{\Large Tuan Viet Nguyen}} & Email : \href{mailto:tuan.vietnguyen90@gmail.com}{tuan.vietnguyen90@gmail.com}\\
+  \textbf{Agriculture Victoria Research} & Mobile : +61.434.484.699 \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of the Sunshine Coast}{QLD, Australia}
+      {Doctor of Philosophy (PhD) ;  Comparative Genomics}{Feb. 2016 -- August. 2019}
+    \resumeSubheading
+      {Queensland University of Technology}{QLD, Australia}
+      {Master of Applied Science (MsAppSc) ;  Molecular Genetics}{May. 2013 -- May. 2015 }
+    \resumeSubheading
+      {International University, Ho Chi Minh National University Vietnam}{HCMC, Vietnam}
+      {Bachelor of Science (Bsc) ; Major: Aquaculture Biotechnology }{2008 -- 2012}	  
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Professional experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Agriculture Victoria Research}{VIC, Australia}
+      {Research Scientist in Computational Biology}{April. 2020 – Now}
+%
+%
+
+    \resumeSubheading
+      {University of the Sunshine Coast}{QLD, Australia}
+      {Postdoctoral Researcher}{Aug. 2019 – Dec. 2019}
+%      \resumeItemListStart
+%        \resumeBlack{Co-taught undergraduate level course for a variety of subjects (LFS252, SCI212)
+%        \resumeBlack{Maintained aquaculture facilities}
+%	  \resumeBlack{Assisted researchers with bioinformatics tasks}
+%	  \resumeBlack{Scientific consultation for next generation sequencing experiments}
+%     \resumeItemListEnd
+
+    \resumeSubheading
+      {University of the Sunshine Coast}{QLD, Australia}
+      {Research Assistant | Teaching Assistant}{Aug. 2015 – August 2019}
+%      \resumeItemListStart
+%        \resumeBlack{Co-taught undergraduate level course for a variety of subjects (LFS252, SCI212)
+%        \resumeBlack{Maintained aquaculture facilities}
+%	  \resumeBlack{Assisted researchers with bioinformatics tasks}
+%	  \resumeBlack{Scientific consultation for next generation sequencing experiments}
+%     \resumeItemListEnd
+
+    \resumeSubheading
+      {Queensland University of Technology}{QLD, Australia}
+      {Research Assistant | Teaching Assistant}{Feb. 2014 – Jul. 2015}
+%      \resumeItemListStart
+%        \resumeBlack{Co-taught undergraduate level course for a variety of subjects}
+%        \resumeBlack{Shared responsibility for lab works, homework assignments and grades}
+%	  \resumeBlack{Assisted researchers with bioinformatics tasks}
+%      \resumeItemListEnd
+
+     \resumeSubheading
+      {International University, Ho Chi Minh National University Vietnam}{HCMC, Vietnam}
+      {Research Assistant}{Feb. 2012 – Mar. 2013}
+%      \resumeItemListStart
+%        \resumeBlack{Experimental design and scientific consultations}
+%        \resumeBlack{Responsible for various tasks in lab according to lab manager}
+%	  \resumeBlack{Part-time lab technician}
+%     \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATION-----------------
+\section{Publication}
+\nocite{*}
+\bibliographystyle{unsrt}
+{\small
+	\bibliography{publication}}
+
+\textbf{$\dagger$ Equal contribution author}  
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeItemListStart
+    \resumeBlack{Empirical testing of imputation accuracy in crossbreed bovine species}
+    \resumeBlack{Decoding the genome of the Tropical rock lobster, \textit{Palinurus ornatus}}
+    \resumeBlack{The neuropeptidome and putative G-Protein Coupled Receptors (GPCRs) in the Tropical rock lobster, \textit{Palinurus ornatus}}
+    \resumeBlack{Understanding molecular mechanism of flesh coloration in Atlantic salmon (\textit{Salmo salar)}}
+    \resumeBlack{Insights on the molecular basis of sexual maturation in the Black tiger prawn (\textit{Penaeus monodon})}
+    \resumeBlack{Understanding the neurohormonal pathway in the Australian Red claw crayfish (\textit{Cherax quadricarinatus})}
+    \resumeBlack{Unlocking the neuropeptidome and their putative G-Protein Coupled Receptors (GPCRs) in the Norway lobster, \textit{Nephrops norvegicus}}
+    \resumeBlack{Development of genomic tools for assessing nutrition, growth and reproduction issues in Norway lobster, \textit{Nephrops norvegicus} (DeNuGReC FP7-PEOPLE-612296)}
+    \resumeBlack{Differential morphological characteristic/sexual characteristic of the giant fresh water prawn \textit{Macrobrachium rosenbergii}}
+    \resumeBlack{Transcriptomic analysis involving salinity tolerance in fresh water palaemonid prawn \textit{Macrobrachium australiense}}
+    \resumeBlack{Transcriptomic response related to salinity elevation in Tra catfish (\textit{Pangasianodon hypophthalmus})}
+    \resumeBlack{Effect of salinity on growth performance of Tra catfish (\textit{Pangasianodon hypophthalmus}) fingerlings}
+  \resumeItemListEnd
+
+ %-----------FUNDING-----------------
+\section{Funding}
+  \resumeItemListStart
+    \resumeBlack{\textbf{Vietnam National Foundation for Science and Technology Development (NAFOSTED)} | Understanding the differences in reproductive traits between wild and captive populations of female black tiger shrimp (\textit{Penaeus monodon}) using RNA-Sequencing approach | Role: Co-PI | Value: 55.000 AUD}
+    \resumeBlack{\textbf{Biotechnology center of Ho Chi Minh City } | Transcriptomics analysis of tilapia for molecular marker involved in resistance of Tilapia Lake virus (TiLV) | Role: Co-PI | Value: 90.000 AUD}
+  \resumeItemListEnd
+  
+%-----------Conference and workshop-----------------
+\section{Conferences and workshops}
+  \resumeItemListStart
+    \resumeBlack{\textbf{Reproducible genomics workflows using Nextflow and Nf-core}  | Virtual - Barcelona, Spain | Nov 2020 | \textit{Flash talk presenter}}
+    \resumeBlack{\textbf{International Conference of Quantitative Genetics (ICQG6)}  |  Virtual - Brisbane, Australia | Nov 2020 | \textit{Attendee}}
+    \resumeBlack{\textbf{Introduction to RNA-sequencing : Opportunities and challenges in applied transcriptomics studies}  |  Ho Chi Minh city, Vietnam | Mar 2019 | \textit{Course coordinator}}
+    \resumeBlack{\textbf{RNA sequencing in a nutshell : Perspectives and applications in marine biology}  |  Barcelona, Spain | Jun 2017 | \textit{Course coordinator}}
+    \resumeBlack{\textbf{The Crustacean mid-year meeting} | Barcelona, Spain | Jun 2017 | \textit{Invited Presenter}}
+    \resumeBlack{\textbf{University Research Week: Local research, Global impact} | University of the Sunshine Coast, Australia | Jun 2016 | \textit{Presenter}}
+    \resumeBlack{\textbf{Big Biology and Bioinformatics Symposium (B3)} | Queensland University of Technology, Australia – Nov 2015 | \textit{Poster}}
+    \resumeBlack{\textbf{Winter School in Mathematical and Computational Biology} | University of Queensland, Australia | Jul 2014 | \textit{Attendee}}
+    \resumeBlack{\textbf{Hands-on Workshop on Next Generation Sequencing} | University of Queensland, Australia | Mar 2014 | \textit{Attendee}}
+    \resumeBlack{\textbf{Workshop on application of blended learning} | International University, Vietnam | Aug 2012 | \textit{Attendee}}
+  \resumeItemListEnd
+
+%-----------Honours and Awards-----------------
+\section{Honours and Awards}
+\resumeItemListStart
+	\resumeBlack{3 Minutes thesis winner – USC Scool of Science and Engineering 2019}
+	\resumeBlack{Best HDR presentation – USC Faculty of Science, Health, Electrical Engineering Research Day 2016}
+    \resumeBlack{University of the Sunshine Coast International Research Scholarship (USCIRS) 2016}
+    \resumeBlack{Best HDR presentation –  QUT Earth, Environment and Biological Science Seminar 2013}
+    \resumeBlack{International University, Ho Chi Minh National University Entrance scholarship 2008}
+\resumeItemListEnd  
+
+%--------Skills------------
+\section{Key Skills}
+ \resumeItemListStart
+    \resumeSubItem{Molecular biology skills}{DNA/RNA/protein extraction, PCR, qRT-PCR, Next generation sequencing (WGS, RNAseq)}
+    \resumeSubItem{Bioinformatics skills}{QC, assembly, mapping, variant analysis (SNP, microsatellite), differential expression analysis, gene data mining, protein modelling, imputation (SNParray, Whole genome sequencing)}
+    \resumeSubItem{Computer skills}{Microsoft Office, Adobe Photoshop, Lightroom, LaTeX, Unix shell scripts, R, Python, RMarkdown}
+    \resumeSubItem{Interpersonal skills}{Leadership, Public speaking, Multi-tasking, Cross-cultural communication}
+  \resumeItemListEnd
+
+%--------Reference------------
+\section{References}
+ \resumeItemListStart
+    \resumeRef{Dr Iona M MacLeod}  {Agriculture Victoria Research} \href{mailto:iona.mcleod@agriculture.vic.gov.au}{\textit{Email: iona.macleod@agriculture.vic.gov.au}}
+    \resumeRef{Dr Tomer Ventura}  {University of the Sunshine Coast, Australia} \href{mailto:tventura@usc.edu.au}{\textit{Email: tventura@usc.edu.au}} 
+    \resumeRef{Dr Guiomar Esterich Rotllant}  {Institut de Ciències del Mar (CSIC), Spain} \href{mailto:guio@icm.csic.es}{\textit{Email: guio@icm.csic.es}} 
+  \resumeItemListEnd
+  
+%-------------------------------------------
+
+\end{document}
