@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{hyde2020neural}
+Cameron Hyde, \textbf{Nguyen, Tuan Viet}, Quinn Fitzgibbon, Abigail Elizur,
+  Gregory Smith, and Tomer Ventura.
+\newblock Neural remodelling in spiny lobster larvae is characterized by broad
+  neuropeptide suppression.
+\newblock {\em General and Comparative Endocrinology}, 2020.
+
+\bibitem{nguyen2020transcriptomic}
+\textbf{Nguyen, Tuan Viet}, Luke Ryan, Josephine Nocillado, Marc Le~Groumellec,
+  Abigail Elizur, and Tomer Ventura.
+\newblock Transcriptomic changes across vitellogenesis in the black tiger prawn
+  (\textit{Penaeus monodon}), neuropeptides and g protein-coupled receptors
+  repertoire curation.
+\newblock {\em General and Comparative Endocrinology}, 298, 2020.
+
+\bibitem{ventura2020multi}
+Tomer Ventura, Jennifer~C Chandler, \textbf{Nguyen, Tuan Viet}, Cameron~J Hyde,
+  Abigail Elizur, Quinn~P Fitzgibbon, and Gregory~G Smith.
+\newblock Multi-tissue transcriptome analysis identifies key sexual
+  development-related genes of the ornate spiny lobster (\textit{Panulirus
+  ornatus}).
+\newblock {\em Genes}, 11, 2020.
+
+\bibitem{nguyen2018insights}
+\textbf{Nguyen, Tuan Viet}, Guiomar~E Rotllant, Scott~F Cummins, Abigail
+  Elizur, and Tomer Ventura.
+\newblock Insights into sexual maturation and reproduction in the {Norway}
+  lobster (\textit{Nephrops norvegicus}) via \textit{in silico} prediction and
+  characterization of neuropeptides and {G Protein-coupled Receptors}.
+\newblock {\em Frontiers in Endocrinology}, 9, 2018.
+
+\bibitem{nguyen2018guidelines}
+\textbf{Nguyen, Tuan Viet}, Hyungtaek Jung, Guiomar Rotllant, David Hurwood,
+  Peter Mather, and Tomer Ventura.
+\newblock Guidelines for {RNA-Seq} projects: applications and opportunities in
+  non-model decapod crustacean species.
+\newblock {\em Hydrobiologia}, 825(1):5--27, 2018.
+
+\bibitem{rotllant2018evaluation}
+Guiomar Rotllant$\dagger$, \textbf{Nguyen, Tuan Viet}\textbf{$\dagger$}, David
+  Hurwood, Valerio Sbragaglia, Tomer Ventura, Silvia Joly, Abigail Elizur,
+  Peter~B Mather, et~al.
+\newblock Evaluation of genes involved in {Norway lobster} (\textit{Nephrops
+  norvegicus}) female sexual maturation using transcriptomic analysis.
+\newblock {\em Hydrobiologia}, 825(1):137--158, 2018.
+
+\bibitem{rotllant2018toward}
+Guiomar Rotllant, \textbf{Nguyen, Tuan Viet}, Joseph Aizen, Saowaros
+  Suwansa-ard, and Tomer Ventura.
+\newblock Toward the identification of female gonad-stimulating factors in
+  crustaceans.
+\newblock {\em Hydrobiologia}, 825(1):91--119, 2018.
+
+\bibitem{rotllant2017sex}
+Guiomar Rotllant$\dagger$, \textbf{Nguyen, Tuan Viet$\dagger$}, Valerio
+  Sbragaglia, Lifat Rahi, Kevin~J Dudley, David Hurwood, Tomer Ventura, Vincent
+  Chand, Jacopo Aguzzi, Peter~B Mather, et~al.
+\newblock Sex and tissue specific gene expression patterns identified following
+  \textit{de novo} transcriptomic analysis of the {Norway lobster},
+  \textit{Nephrops norvegicus}.
+\newblock {\em BMC Genomics}, 18(1):622, 2017.
+
+\bibitem{aziz2017identification}
+Dania Aziz, \textbf{Nguyen, Tuan Viet}, Md~Lifat Rahi, David~A Hurwood, and
+  Peter~B Mather.
+\newblock Identification of genes that potentially affect social dominance
+  hierarchy in adult male giant freshwater prawns (\textit{Macrobrachium
+  rosenbergii}).
+\newblock {\em Aquaculture}, 476:168--184, 2017.
+
+\bibitem{nguyen2016evaluation}
+\textbf{Nguyen, Tuan Viet}, Hyungtaek Jung, Thanh~Minh Nguyen, David Hurwood,
+  and Peter Mather.
+\newblock Evaluation of potential candidate genes involved in salinity
+  tolerance in striped catfish \textit{(Pangasianodon hypophthalmus)} using an
+  {RNA-Seq} approach.
+\newblock {\em Marine Genomics}, 25:75--88, 2016.
+
+\bibitem{nguyen2016transcriptomic}
+\textbf{Nguyen, Tuan Viet}, Scott~F Cummins, Abigail Elizur, and Tomer Ventura.
+\newblock Transcriptomic characterization and curation of candidate
+  neuropeptides regulating reproduction in the eyestalk ganglia of the
+  {Australian crayfish}, \textit{Cherax quadricarinatus}.
+\newblock {\em Scientific Reports}, 6:38658, 2016.
+
+\bibitem{moshtaghi2016transcriptomic}
+Azam Moshtaghi, Md~Lifat Rahi, \textbf{Nguyen, Tuan Viet}, Peter~B Mather, and
+  David~A Hurwood.
+\newblock A transcriptomic scan for potential candidate genes involved in
+  osmoregulation in an obligate freshwater palaemonid prawn
+  (\textit{Macrobrachium australiense}).
+\newblock {\em PeerJ}, 4:e2520, 2016.
+
+\bibitem{thanh2015optimizing}
+Nguyen~Minh Thanh, Hyungtaek Jung, Russell~E Lyons, Isaac Njaci, Byoung-Ha
+  Yoon, Vincent Chand, \textbf{Nguyen, Tuan Viet}, Vo~Thi~Minh Thu, and Peter
+  Mather.
+\newblock Optimizing \textit{de novo} transcriptome assembly and extending
+  genomic resources for striped catfish (\textit{Pangasianodon hypophthalmus}).
+\newblock {\em Marine Genomics}, 23:87--97, 2015.
+
+\bibitem{thanh2014transcriptomic}
+Nguyen~Minh Thanh, Hyungtaek Jung, Russell~E Lyons, Vincent Chand,
+  \textbf{Nguyen, Tuan Viet}, Vo~Thi~Minh Thu, and Peter Mather.
+\newblock A transcriptomic analysis of striped catfish (\textit{Pangasianodon
+  hypophthalmus}) in response to salinity adaptation: \textit{De novo}
+  assembly, gene annotation and marker discovery.
+\newblock {\em Comparative Biochemistry and Physiology Part D: Genomics and
+  Proteomics}, 10:52--63, 2014.
+
+\end{thebibliography}
