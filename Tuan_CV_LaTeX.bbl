@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{vo2021deploy}
+Thu Thi~Minh Vo, \textbf{Nguyen, Tuan Viet}, Gianluca Amoroso, Tomer Ventura,
+  and Abigail Elizur.
+\newblock Deploying new generation sequencing for the study of flesh color
+  depletion in atlantic salmon (\textit{Salmo salar}).
+\newblock {\em BMC Genomics}, 22(1):545, 2021.
+
 \bibitem{hyde2020neural}
 Cameron Hyde, \textbf{Nguyen, Tuan Viet}, Quinn Fitzgibbon, Abigail Elizur,
   Gregory Smith, and Tomer Ventura.

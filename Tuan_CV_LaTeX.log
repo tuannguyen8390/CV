@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.20)  20 NOV 2020 02:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2022.2.5)  5 FEB 2022 23:36
 entering extended mode
 **./Tuan_CV_LaTeX.tex
 (Tuan_CV_LaTeX.tex
@@ -326,12 +326,12 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 86
 
 ("C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) (Tuan_CV_LaTeX.bbl
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 113.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
-
+(Font)              <5> on input line 113.
+ (Tuan_CV_LaTeX.bbl
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 4.08003pt.
@@ -341,15 +341,15 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {C:/Users/tuanv/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) [2] [3]
-(Tuan_CV_LaTeX.aux)
+[4] (Tuan_CV_LaTeX.aux)
 Package rerunfilecheck Info: File `Tuan_CV_LaTeX.out' has not changed.
 (rerunfilecheck)             Checksum: 5B350E1442216207973407FEC73701C9;436.
  ) 
 Here is how much of TeX's memory you used:
- 7247 strings out of 479799
- 107794 string characters out of 2879598
- 443058 words of memory out of 3000000
- 24091 multiletter control sequences out of 15000+200000
+ 7250 strings out of 479799
+ 107852 string characters out of 2879600
+ 443104 words of memory out of 3000000
+ 24092 multiletter control sequences out of 15000+200000
  541356 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,72p,518b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -361,9 +361,9 @@ m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti10.pfb>
-Output written on Tuan_CV_LaTeX.pdf (3 pages, 118300 bytes).
+Output written on Tuan_CV_LaTeX.pdf (4 pages, 122678 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

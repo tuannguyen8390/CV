@@ -19,7 +19,7 @@
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 \setlength{\parskip}{-0.3em}
-\renewcommand{\baselinestretch}{0.8}
+\renewcommand{\baselinestretch}{0.5}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -56,8 +56,8 @@
 \newcommand{\resumeSubheading}[4]{
   \item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} & #2 \vspace{2.5pt} \\
+      \textit{\small#3} & \textit{\small #4 } \\ 
     \end{tabular*}
 }
 
@@ -84,7 +84,7 @@
 
 %-----GENERAL INFOS------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://drkangabu.netlify.app/}{\Large Tuan Viet Nguyen}} & Email : \href{mailto:tuan.vietnguyen90@gmail.com}{tuan.vietnguyen90@gmail.com}\\
+  \textbf{\href{https://drkangabu.netlify.app/}{\Large Tuan Viet Nguyen}} & Email : \href{mailto:tuan.vietnguyen90@gmail.com}{tuan.vietnguyen90@gmail.com}   \vspace{2.5pt} \\
   \textbf{Agriculture Victoria Research} & Mobile : +61.434.484.699 \\
 \end{tabular*}
 
@@ -100,16 +100,16 @@
     \resumeSubheading
       {International University, Ho Chi Minh National University Vietnam}{HCMC, Vietnam}
       {Bachelor of Science (Bsc) ; Major: Aquaculture Biotechnology }{2008 -- 2012}	  
-\resumeSubHeadingListEnd
+   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Professional experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Agriculture Victoria Research}{VIC, Australia}
-      {Research Scientist in Computational Biology}{April. 2020 – Now}
-      \resumeItemListStart
-        \resumeBlack{Applying short-read and ultra long-read sequencing in bovine research}
+      {Research Scientist in Computational Biology}{April. 2020 – Now} 
+      \resumeItemListStart 
+      	\resumeBlack{Applying short-read and ultra long-read sequencing in bovine research}
         \resumeBlack{Creating efficient, scalable, reproducible pipeline for automated processing of genomics data (Genotyping by sequencing/microarray, Imputation, GWAS, RNAseq)}
         \resumeBlack{Maintaining coding and data integrity}
         \resumeBlack{Curating and exporting data for related project in DairyBio 2021-2026}
@@ -117,9 +117,8 @@
         \resumeBlack{Liase and perform data analysis, drafting figures and reports for project stakeholders}
      \resumeItemListEnd
 
-     \resumeSubHeadingListStart
-     \resumeSubheading
-       {Zymo Research/Pacific Informatics}{Remote, Vietnam}
+      \resumeSubheading
+       {Zymo Research/Pacific Informatics}{Remote - USA and Vietnam}
        {Technical consultant}{Dec. 2021 – Now}
        \resumeItemListStart
          \resumeBlack{Creating efficient, scalable, reproducible pipeline for automated processing of genomics data as per customer request}
@@ -227,8 +226,8 @@
 \section{Key Skills}
  \resumeItemListStart
     \resumeSubItem{Molecular biology skills}{DNA/RNA/protein extraction, PCR, qRT-PCR, Next generation sequencing (WGS, RNAseq)}
-    \resumeSubItem{Bioinformatics skills}{QC, assembly, mapping, variant analysis (SNP, microsatellite), differential expression analysis, gene data mining, protein modelling, imputation (SNParray, Whole genome sequencing, GWAS)}
-    \resumeSubItem{Coding skills}{Unix shell scripts, R, Python, RMarkdown, Nextflow, Git, Docker, LaTeX}
+    \resumeSubItem{Bioinformatics skills}{QC, assembly, mapping, variant analysis (Small variants/Structural variants), differential expression analysis, gene data mining, protein modelling, imputation (SNParray, Whole genome sequencing, GWAS)}, DNA methylation
+    \resumeSubItem{Coding skills}{Unix shell scripts, R, Python, RMarkdown, NextFlow, Git/GitHub, Docker, LaTeX}
     \resumeSubItem{Computer skills}{Microsoft Office, Adobe Photoshop, Lightroom}
     \resumeSubItem{Interpersonal skills}{Leadership, Public speaking, Multi-tasking, Cross-cultural communication}
   \resumeItemListEnd
@@ -236,12 +235,17 @@
 %--------Reference------------
 \section{References}
  \resumeItemListStart
-    \resumeRef{Dr Iona M MacLeod}  {Agriculture Victoria Research} \href{mailto:iona.mcleod@agriculture.vic.gov.au}{\textit{Email: iona.macleod@agriculture.vic.gov.au}}
-    \resumeRef{Dr Tomer Ventura}  {University of the Sunshine Coast, Australia} \href{mailto:tventura@usc.edu.au}{\textit{Email: tventura@usc.edu.au}} 
-    \resumeRef{Prof Abigail Elizur}  {University of the Sunshine Coast, Australia} \href{mailto:aelizur@usc.edu.au}{\textit{Email: aelizur@usc.edu.au}} 
-    \resumeRef{Dr Guiomar Esterich Rotllant}  {Institut de Ciències del Mar (CSIC), Spain} \href{mailto:guio@icm.csic.es}{\textit{Email: guio@icm.csic.es}} 
+    \resumeRef{Dr Iona MacLeod} | {Agriculture Victoria Research} \href{mailto:iona.mcleod@agriculture.vic.gov.au} 
+    . {\textit{Email: iona.macleod@agriculture.vic.gov.au}}
+    \resumeRef{Dr Tomer Ventura} | {University of the Sunshine Coast, Australia} \href{mailto:tventura@usc.edu.au} 
+    . {\textit{Email: tventura@usc.edu.au}} 
+    \resumeRef{Prof Abigail Elizur} | {University of the Sunshine Coast, Australia} \href{mailto:aelizur@usc.edu.au}
+    . {\textit{Email: aelizur@usc.edu.au}} 
+    \resumeRef{Dr Guiomar Rotllant} | {Institut de Ciències del Mar (CSIC), Spain} \href{mailto:guio@icm.csic.es} 
+    . {\textit{Email: guio@icm.csic.es}} 
   \resumeItemListEnd
   
 %-------------------------------------------
 
 \end{document}
+
