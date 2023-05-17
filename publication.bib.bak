@@ -10,7 +10,7 @@
 }
 
 @article{van2022gwas,
-  title={{GWAS} and genomic prediction of milk urea nitrogen in {A}ustralian and {N}ew {Z}ealand dairy cattle},
+  title={GWAS and genomic prediction of milk urea nitrogen in Australian and New Zealand dairy cattle},
   author={van den Berg, Irene and Ho, Phuong N and \textbf{Nguyen, Tuan Viet} and Haile-Mariam, Mekonnen and MacLeod, Iona M and Beatson, Phil R and O’Connor, Erin and Pryce, Jennie E},
   journal={Genetics Selection Evolution},
   volume={54},
@@ -21,7 +21,7 @@
 }
 
 @article{van2022using,
-  title={Using mid-infrared spectroscopy to increase {GWAS} power to detect {QTL} associated with blood urea nitrogen},
+  title={Using mid-infrared spectroscopy to increase GWAS power to detect QTL associated with blood urea nitrogen},
   author={van den Berg, Irene and Ho, Phuong N and \textbf{Nguyen, Tuan Viet} and Haile-Mariam, Mekonnen and Luke, Timothy DW and Pryce, Jennie E},
   journal={Genetics Selection Evolution},
   volume={54},

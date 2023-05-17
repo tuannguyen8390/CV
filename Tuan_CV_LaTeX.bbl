@@ -1,5 +1,28 @@
 \begin{thebibliography}{10}
 
+\bibitem{nguyen2023long}
+\textbf{Nguyen, Tuan Viet}, Christy~J Vander~Jagt, Jianghui Wang, Hans~D
+  Daetwyler, Ruidong Xiang, Michael~E Goddard, Loan~T Nguyen, Elizabeth~M Ross,
+  Ben~J Hayes, Amanda~J Chamberlain, et~al.
+\newblock In it for the long run: perspectives on exploiting long-read
+  sequencing in livestock for population scale studies of structural variants.
+\newblock {\em Genetics Selection Evolution}, 55(1):9, 2023.
+
+\bibitem{van2022gwas}
+Irene van~den Berg, Phuong~N Ho, \textbf{Nguyen, Tuan Viet}, Mekonnen
+  Haile-Mariam, Iona~M MacLeod, Phil~R Beatson, Erin O’Connor, and Jennie~E
+  Pryce.
+\newblock {GWAS} and genomic prediction of milk urea nitrogen in {A}ustralian
+  and {N}ew {Z}ealand dairy cattle.
+\newblock {\em Genetics Selection Evolution}, 54(1):15, 2022.
+
+\bibitem{van2022using}
+Irene van~den Berg, Phuong~N Ho, \textbf{Nguyen, Tuan Viet}, Mekonnen
+  Haile-Mariam, Timothy~DW Luke, and Jennie~E Pryce.
+\newblock Using mid-infrared spectroscopy to increase {GWAS} power to detect
+  {QTL} associated with blood urea nitrogen.
+\newblock {\em Genetics Selection Evolution}, 54(1):1--8, 2022.
+
 \bibitem{vo2021deploy}
 Thu Thi~Minh Vo, \textbf{Nguyen, Tuan Viet}, Gianluca Amoroso, Tomer Ventura,
   and Abigail Elizur.
