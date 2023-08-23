@@ -8,6 +8,28 @@
   sequencing in livestock for population scale studies of structural variants.
 \newblock {\em Genetics Selection Evolution}, 55(1):9, 2023.
 
+\bibitem{nguyen2023cost}
+\textbf{Nguyen, Tuan Viet}, J~Wang, AJ~Chamberlain, and IM~MacLeod.
+\newblock Cost effective detection of structural variants in long-read sequence
+  -- how deep is enough?
+\newblock In {\em Association for the Advancement of Animal Breeding and
+  Genetics}, volume~25, pages 218--221, 2023.
+
+\bibitem{chamberlain2023discovering}
+A~Chamberlain, \textbf{Nguyen, Tuan Viet}, J~Wang, and I~Macleod.
+\newblock Discovering the missing variation in the bovine genome; a long-read
+  sequencing pilot study into the structural variation in two dairy breeds.
+\newblock In {\em Association for the Advancement of Animal Breeding and
+  Genetics}, volume~25, pages 274--277, 2023.
+
+\bibitem{macleod2023population}
+IM~MacLeod, \textbf{Nguyen, Tuan Viet}, J~Wang, CJ~Vander~Jagt, and
+  AJ~Chamberlain.
+\newblock Population scale long-read sequence databases: are they useful for
+  accurate snp and indel discovery?
+\newblock In {\em Association for the Advancement of Animal Breeding and
+  Genetics}, volume~25, pages 202--205, 2023.
+
 \bibitem{van2022gwas}
 Irene van~den Berg, Phuong~N Ho, \textbf{Nguyen, Tuan Viet}, Mekonnen
   Haile-Mariam, Iona~M MacLeod, Phil~R Beatson, Erin O’Connor, and Jennie~E
@@ -15,6 +37,21 @@ Irene van~den Berg, Phuong~N Ho, \textbf{Nguyen, Tuan Viet}, Mekonnen
 \newblock {GWAS} and genomic prediction of milk urea nitrogen in {A}ustralian
   and {N}ew {Z}ealand dairy cattle.
 \newblock {\em Genetics Selection Evolution}, 54(1):15, 2022.
+
+\bibitem{nguyen2022exploring}
+S~\textbf{Nguyen, Tuan Viet}and Bolormaa, CM~Reich, AJ~Chamberlain, A~Medley,
+  C~Schrooten, HD~Daetwyler, and IM~MacLeod.
+\newblock Exploring imputation accuracy across the bovine x chromosome.
+\newblock In {\em Proc. Assoc. Advmt. Anim. Breed. Genet}, volume~24, pages
+  264--268, 2022.
+
+\bibitem{macleod2022current}
+IM~MacLeod, S~Bolormaa, CJ~Vander~Jagt, \textbf{Nguyen, Tuan Viet},
+  AJ~Chamberlain, Daetwyler, and HD.
+\newblock Current challenges for imputation of snp chips to whole- genome
+  sequence in cattle and sheep.
+\newblock In {\em Proc. Assoc. Advmt. Anim. Breed. Genet}, pages 212--216.
+  http://www.aaabg.org/aaabghome/AAABG24papers/54MacLeod24212.pdf, 2022.
 
 \bibitem{van2022using}
 Irene van~den Berg, Phuong~N Ho, \textbf{Nguyen, Tuan Viet}, Mekonnen
